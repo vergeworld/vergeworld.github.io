@@ -1,0 +1,118 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fbfbfd;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.toolbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+
+/* section */
+section {
+  flex: 1;
+}
+
+.home-login-component {
+  display: flex;
+  height: 100%;
+}
+
+.parent-container {
+  margin: 20px auto 0;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 20px rgba(227, 227, 229, 0.8);
+  text-align: center;
+}
+
+.icon {
+  margin-top: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 20px rgba(227, 227, 229, 0.6);
+}
+
+.sign-in-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.phone-number-container {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.phone-number-container>div {
+  border: 1px solid;
+  width: fit-content;
+  padding: 2px;
+}
+
+input {
+  border: none;
+  margin: 0;
+  vertical-align: middle
+}
+
+.keep-state {
+  width: 180px;
+  color: gray;
+  margin: auto;
+  line-height: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(217, 213, 213);
+}
+
+.create {
+  color: blue;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+
+
+/* footer */
+footer {
+  padding: 20px;
+}
+
+.legal-footer-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  color: gray;
+}
+
+.inner-row {
+  display: flex;
+}
+
+.with-separator {
+
+  margin-left: 20px;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+}
